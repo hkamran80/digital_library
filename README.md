@@ -1,2 +1,2 @@
-# digital_library
-Python version of the Digital Library system.
+# Digital Library (Python)
+Welcome to the repository of the soon-to-be-published Digital Library System for Python (DLSP).
