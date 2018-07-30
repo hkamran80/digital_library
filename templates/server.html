@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Digital Library Catalog for Python: Add a Book</title>
+		<link rel="stylesheet" href="https://w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" href="/static/css/library.css">
+		<link rel="shortcut icon" href="/static/favicon.ico">
+
+		<style>
+		.outer {
+		  display: table;
+		  position: absolute;
+		  height: 100%;
+		  width: 100%;
+		}
+
+		.middle {
+		  display: table-cell;
+		  vertical-align: middle;
+		}
+
+		.inner {
+		  margin-left: auto;
+		  margin-right: auto;
+		  /*width: 400px;*/
+		}
+		</style>
+	</head>
+	<body style="text-align:center;" class="w3-container">
+		<div class="outer">
+			<div class="middle">
+				<form id="add_book" action="/server" method="POST" class="w3-card-4 w3-container inner" style="width:25%;padding:25px;">
+					<!--<input type="text" name="book_title" class="w3-input" placeholder="Title of book....">-->
+
+					<input type="text" name="book_isbn" class="w3-input" placeholder="ISBN of book....">
+						<br>
+					<input type="submit" class="w3-button" value="Add book" style="width:100%;">
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
